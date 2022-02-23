@@ -1,1 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import './assets/theme/root.scss';
+@import './assets/theme/mobile.scss';
+@import './assets/theme/_veriables.scss';
+body {
+    background-color: $color-black;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+}

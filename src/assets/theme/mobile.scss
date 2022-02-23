@@ -1,0 +1,41 @@
+@import '../../assets/theme/_veriables.scss';
+@media only screen and (max-width: 768px) {
+    .home {}
+    .page-footer {
+        position: fixed;
+        bottom: 0%;
+        width: 100%;
+    }
+    .mobile-nav {
+        .nav {
+            height: 50px;
+            align-items: center;
+            background: black;
+            justify-content: space-around;
+            align-items: center;
+            border-top-left-radius: 50px;
+            border-top-right-radius: 50px;
+            padding: 0 25px;
+        }
+        .nav-item {
+            color: $color-white;
+            .nav-icon {
+                width: 20px;
+                height: 20px;
+            }
+            .home-icon-case {
+                background: gray;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-radius: 50%;
+                padding: 14px 15px;
+                margin-top: -20px;
+            }
+            .home-icon {
+                width: 30px;
+                height: 30px;
+            }
+        }
+    }
+}
